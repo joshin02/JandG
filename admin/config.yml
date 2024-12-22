@@ -13,4 +13,4 @@ collections:
         name: "header"
         file: "content/header.json"
         fields:
-          - { label: "Site Title", name: "site_title", widget: "string" }
+          - { label: "Site Title", name: "site-title", widget: "string" }
