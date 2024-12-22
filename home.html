@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <!-- Decap CMS Integration -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </head>
 <body>
     <header>
@@ -113,6 +115,14 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-q5uK6zP5V7IuPA7qgqddTdzr8bqzF6P5N4v4v1Xh6E1q5nB9V1r9Xj7b6zS5tS5I" crossorigin="anonymous"></script>
+    <!-- Decap CMS Integration -->
+    <script>
+        window.cms = new CMS({
+            config: '/admin/config.yml',
+            site: '/admin'
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
