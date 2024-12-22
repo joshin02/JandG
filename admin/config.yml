@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images/uploads" # Folder for uploaded images
-public_folder: "/images/uploads"
+media_folder: "assets/img-cuts" # Folder for uploaded images
+public_folder: "/assets/img-cuts"
 
 collections:
   - name: "site_content"
@@ -14,5 +14,3 @@ collections:
         file: "content/header.json"
         fields:
           - { label: "Site Title", name: "site_title", widget: "string" }
-          - { label: "Phone Number", name: "phone_number", widget: "string" }
-          - { label: "Hours", name: "hours", widget: "string" }
